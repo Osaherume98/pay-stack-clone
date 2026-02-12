@@ -2,11 +2,20 @@ import dominos from "../assets/logo/Dominos-plain.svg";
 import mtn from "../assets/logo/mtn.svg";
 import bolt from "../assets/logo/Bolt-stack.svg";
 import axa from "../assets/logo/Axa-mansard.svg";
+import heroMap from "../components/WorldMap";
 
 export default function Hero() {
   return (
     <section className="relative w-full overflow-hidden bg-[#eaf7ee]">
-      {/* Background layer placeholder (no external image yet) */}
+      <div
+      className="pointer-events-none absolute inset-0 opacity-40"
+      style={{
+        backgroundImage: `url(${heroMap})`,
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "right 18% top 35%",
+        backgroundSize: "900px auto",
+  }}
+/>
       <div className="pointer-events-none absolute inset-0 opacity-40" />
 
       <div className="relative mx-auto grid max-w-7xl grid-cols-1 gap-10 px-4 pb-16 pt-14 lg:grid-cols-2 lg:items-center lg:gap-14 lg:pb-24 lg:pt-20">
