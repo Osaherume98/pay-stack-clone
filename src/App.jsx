@@ -1,17 +1,12 @@
-// javascript
 import Header from "./components/Header";
+import Hero from "./components/Hero";
 
 export default function App() {
   return (
     <div className="min-h-screen">
       <Header />
+      <Hero />
 
-      {/* Next: Hero section goes here */}
-      <main>
-        <div className="mx-auto max-w-7xl px-4 py-16">
-          <div className="text-slate-600">Hero section next…</div>
-        </div>
-      </main>
     </div>
   );
 }
