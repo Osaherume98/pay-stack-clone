@@ -1,8 +1,8 @@
-import dominos from "../assets/logo/Dominos-plain.svg";
-import mtn from "../assets/logo/mtn.svg";
-import bolt from "../assets/logo/Bolt-stack.svg";
-import axa from "../assets/logo/Axa-mansard.svg";
-import heroMap from "../components/WorldMap";
+import dominos from "../assets/logo-wall/Dominos.svg";
+import mtn from "../assets/logo-wall/mtn.svg";
+import bolt from "../assets/logo-wall/Bolt-stack.svg";
+import axa from "../assets/logo-wall/Axa-mansard.svg";
+import heroMap from "./WorldMap";
 
 export default function Hero() {
   return (
