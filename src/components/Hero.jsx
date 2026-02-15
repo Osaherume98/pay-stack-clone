@@ -1,6 +1,6 @@
 import dominos from "../assets/logo-wall/Dominos.svg";
 import mtn from "../assets/logo-wall/mtn.svg";
-import bolt from "../assets/logo-wall/Bolt-stack.svg";
+import bolt from "../assets/logo-wall/Bolt.svg";
 import axa from "../assets/logo-wall/Axa-mansard.svg";
 import heroMap from "./WorldMap";
 

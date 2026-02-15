@@ -5,6 +5,8 @@ import ApiSection from "./components/ApiSection";
 import SecuritySection from "./components/SecutritySection";
 import TrustedSection from "./components/TrustedSection";
 import LogoSection from "./components/LogoSection";
+import PartnersSection from "./components/PartnersSection";
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
@@ -16,6 +18,8 @@ export default function App() {
       <SecuritySection />
       <TrustedSection />
       <LogoSection />
+      <PartnersSection />
+      <Footer />
 
     </div>
   );
