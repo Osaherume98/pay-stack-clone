@@ -1,13 +1,13 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import CountryDropdown from "./CountryDropdown";
 import PaystackLogoiMG from "../assets/paystack-logo.png";
-import ChoseUS from "../assets/logo/why_chose_us.svg";
-import Success from "../assets/logo/success_rates.svg";
-import Demo from "../assets/logo/demo_db.svg";
-import Bulb from "../assets/logo/blog_db.svg";
-import Guide from "../assets/logo/guides_db.svg";
-import Tutorials from "../assets/logo/tutorials_db.svg";
-import Decode from "../assets/logo/decode_db.svg";
+import ChoseUS from "../assets/why_chose_us.svg";
+import Success from "../assets/success_rates.svg";
+import Demo from "../assets/demo_db.svg";
+import Bulb from "../assets/blog_db.svg";
+import Guide from "../assets/guides_db.svg";
+import Tutorials from "../assets/tutorials_db.svg";
+import Decode from "../assets/decode_db.svg";
 
 function ChevronDownIcon({ className = "" }) {
   return (

@@ -1,6 +1,6 @@
 import stripeLogo from "../assets/svg/stripe.png";
 import visaLogo from "../assets/svg/visa.png";
-import ycLogo from "../assets/logo/ycombinator-logo.png";
+import ycLogo from "../assets/ycombinator-logo.png";
 
 import patrickImg from "../assets/patrick.jpg";
 import ottoImg from "../assets/otto-williams.jpeg";
