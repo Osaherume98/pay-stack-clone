@@ -7,7 +7,6 @@ export default function Payments() {
   return (
     <section className="w-full bg-white py-16 lg:py-20">
       <div className="mx-auto max-w-7xl px-4">
-        {/* Header */}
         <h2 className="text-4xl font-bold tracking-tight text-slate-900 lg:text-5xl">
           Simple, easy payments
         </h2>
@@ -15,9 +14,7 @@ export default function Payments() {
           Building a business is hard. Getting paid shouldn't be.
         </p>
 
-        {/* Grid Layout: Left image and Right content */}
         <div className="mt-12 grid grid-cols-1 gap-10 lg:grid-cols-2 lg:gap-14">
-          {/* Left Image */}
           <div className="flex justify-center lg:h-[500px]">
             <img
               src={phoneHand}
@@ -27,7 +24,6 @@ export default function Payments() {
             />
           </div>
 
-          {/* Right Content */}
           <div>
             <h3 className="text-3xl font-bold leading-tight text-slate-900 lg:text-4xl">
               Delight customers with a seamless payments experience
@@ -38,9 +34,7 @@ export default function Payments() {
               Integrate Paystack once and let your customers pay you however they want.
             </p>
 
-            {/* Payment Methods */}
             <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-6">
-              {/* Left Column */}
               <ul className="space-y-4">
                 {methodsLeft.map((m) => (
                   <li key={m} className="flex items-center gap-3">
@@ -52,7 +46,6 @@ export default function Payments() {
                 ))}
               </ul>
 
-              {/* Right Column */}
               <ul className="space-y-4">
                 {methodsRight.map((m) => (
                   <li key={m} className="flex items-center gap-3">
@@ -65,8 +58,7 @@ export default function Payments() {
               </ul>
             </div>
 
-            {/* Success Rate Section */}
-            <h3 className="mt-8 text-2xl font-bold text-slate-900">
+            <h3 className="mt-8  text-3xl font-bold leading-tight text-slate-900 lg:text-4xl">
               Enjoy phenomenal transaction success rates
             </h3>
             <p className="mt-4 text-lg text-slate-700">
@@ -114,11 +106,10 @@ function CheckIcon({ className = "" }) {
   );
 }
 
-// GreaterThanIcon Component
 function GreaterThanIcon({ className = "" }) {
   return (
     <span className={`${className} inline-flex items-center justify-center rounded-full border-2 border-[#2fb344] bg-white p-2`}>
-      &gt; {/* Greater-than symbol */}
+      &gt; 
     </span>
   );
 }

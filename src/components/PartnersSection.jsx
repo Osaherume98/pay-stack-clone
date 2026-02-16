@@ -39,7 +39,6 @@ export default function PartnersSection() {
 
   return (
     <section className="relative w-full overflow-hidden bg-white">
-      {/* faint ring pattern on the right */}
       <div className="pointer-events-none absolute right-0 top-0 h-full w-[55%] opacity-60">
         <RingPattern />
       </div>
@@ -117,7 +116,6 @@ function RingPattern() {
         </pattern>
       </defs>
 
-      {/* big faint rings */}
       <circle cx="520" cy="120" r="210" fill="none" stroke="url(#dashRing)" strokeWidth="36" />
       <circle cx="520" cy="120" r="150" fill="none" stroke="url(#dashRing)" strokeWidth="28" />
       <circle cx="520" cy="120" r="95" fill="none" stroke="url(#dashRing)" strokeWidth="22" />

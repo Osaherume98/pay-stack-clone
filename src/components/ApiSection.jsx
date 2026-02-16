@@ -45,7 +45,7 @@ export default function ApiSection() {
               href="#"
               className="mt-10 inline-flex items-center gap-3 text-base font-semibold text-green-600 hover:text-green-700"
             >
-              <span className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-green-600">
+              <span className="inline-flex h-5 w-5 items-center justify-center rounded-full border border-green-600">
                 <ArrowIcon className="h-4 w-4" />
               </span>
               Paystack API Quickstart

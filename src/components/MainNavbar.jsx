@@ -211,11 +211,12 @@ export default function MainNavbar() {
             ],
           },
           {
-            title: "BY USE CASE",
+            title: "YOUR BUSINESS TYPE",
             items: [
-              { label: "Marketplaces", href: "#" },
-              { label: "SaaS", href: "#" },
-              { label: "Ecommerce", href: "#" },
+              { label: "For Fintechs", href: "#" },
+              { label: "For Agencies", href: "#" },
+              { label: "For Schools", href: "#" },
+              { label: "For Betting", href: "#" },
             ],
           },
         ],
@@ -254,6 +255,10 @@ export default function MainNavbar() {
               { label: "About Us", href: "#" },
               { label: "Changelog", href: "#" },
               { label: "Subscribe", href: "#" },
+              { label: "Compliance", href: "#" },
+              { label: "Careers", href: "#" },
+              { label: "Brand", href: "#" },
+              { label: "Media Kit", href: "#" },
             ],
           },
           {
@@ -269,13 +274,15 @@ export default function MainNavbar() {
       },
 
       developers: [
-        { label: "Documentation", href: "#", desc: "API references and examples",},
-        { label: "Libraries", href: "#", desc: "SDKs and integrations",},
-        { label: "Status Page", href: "#", desc: "System uptime and incidents" },
+        { label: "Overview", href: "#",},
+        { label: "Documentration", href: "#",},
+        { label: "Integrations", href: "#", },
+        { label: "Status Page", href: "#", },
       ],
       support: [
-        { label: "Help Center", href: "#", desc: "FAQs and troubleshooting" },
-        { label: "Contact", href: "#", desc: "Reach our support team" },
+        { label: "Quick Help", href: "#", },
+        { label: "Contact Us", href: "#", },
+        { label: "Why was I debiteed?", href: "#", },
       ],
     }),
     []

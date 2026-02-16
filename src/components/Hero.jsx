@@ -2,7 +2,7 @@ import dominos from "../assets/logo-wall/Dominos.svg";
 import mtn from "../assets/logo-wall/mtn.svg";
 import bolt from "../assets/logo-wall/Bolt.svg";
 import axa from "../assets/logo-wall/Axa-mansard.svg";
-import heroMap from "./WorldMap";
+import heroMap from "../assets/svg/molumen_world_map.svg";
 
 export default function Hero() {
   return (
@@ -84,7 +84,7 @@ function HeroRight() {
     <div className="relative flex flex-col">
       <div className="mx-auto w-full max-w-md rounded-2xl p-6 flex flex-col">
 
-        <div className="h-40" /> {/* Spacer block – cleaner than huge margin */}
+        <div className="h-40" /> 
 
         <a
           href="#"

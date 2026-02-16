@@ -3,9 +3,7 @@ import stripe from "../assets/logo/stripe.png";
 export default function Footer() {
   return (
     <footer className="relative bg-white">
-      {/* CTA band */}
       <div className="relative overflow-hidden">
-        {/* faint green wave */}
         <WaveBackground />
 
         <div className="relative mx-auto max-w-7xl px-4 pt-20 pb-14 sm:px-6 lg:px-8">
@@ -30,9 +28,7 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* Links + contact section */}
       <div className="mx-auto max-w-7xl px-4 pb-16 sm:px-6 lg:px-8">
-        {/* link columns */}
         <div className="grid gap-10 border-t border-slate-100 pt-12 md:grid-cols-4">
           <FooterCol
             title="Why Paystack"
@@ -124,10 +120,8 @@ export default function Footer() {
           />
         </div>
 
-        {/* divider */}
         <div className="mt-12 border-t border-slate-100 pt-12">
           <div className="grid gap-10 md:grid-cols-4">
-            {/* Contact block */}
             <div>
               <div className="text-sm font-semibold text-slate-900">Contact</div>
 
@@ -160,7 +154,6 @@ export default function Footer() {
                 Paystack is a Stripe company
               </div>
 
-              {/* Optional stripe logo */}
               {stripe ? (
                 <img
                   src={stripe}
@@ -170,7 +163,6 @@ export default function Footer() {
               ) : null}
             </div>
 
-            {/* Offices */}
             <Office
               title="Lagos"
               lines={[
@@ -318,7 +310,6 @@ function WaveBackground() {
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
-        {/* dotted wave lines */}
         <path
           d="M0 140 C 220 40, 420 40, 700 140 C 980 240, 1180 240, 1400 140"
           stroke="rgb(34 197 94)"
@@ -348,7 +339,6 @@ function WaveBackground() {
   );
 }
 
-/* Icons (inline SVG) */
 function FacebookIcon() {
   return (
     <svg viewBox="0 0 24 24" fill="currentColor" className="h-full w-full">
