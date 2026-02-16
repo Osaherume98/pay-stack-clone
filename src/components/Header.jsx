@@ -1,4 +1,4 @@
-import TopPromoBar from "./TopPromoBar";
+import TopPromoBar from "./TopPromobar";
 import MainNavbar from "./MainNavbar";
 
 export default function Header() {

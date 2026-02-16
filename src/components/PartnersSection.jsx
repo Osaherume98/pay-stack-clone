@@ -1,4 +1,4 @@
-import stripeLogo from "../assets/logo/Stripe.png";
+import stripeLogo from "../assets/logo/stripe.png";
 import visaLogo from "../assets/logo/Visa.png";
 import ycLogo from "../assets/logo/ycombinator-logo.png";
 
