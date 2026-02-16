@@ -7,7 +7,6 @@ import TrustedSection from "./components/TrustedSection";
 import LogoSection from "./components/LogoSection";
 import PartnersSection from "./components/PartnersSection";
 import Footer from "./components/Footer";
-import 'leaflet/dist/leaflet.css';
 
 
 export default function App() {
