@@ -1,4 +1,3 @@
-import TopPromoBar from './TopPromoBar';
 export default function TopPromoBar() {
   return (
     <div className="w-full bg-slate-800 text-white">
