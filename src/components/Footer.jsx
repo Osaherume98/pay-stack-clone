@@ -1,4 +1,4 @@
-import stripe from "../assets/logo/stripe.png";
+import stripe from "../assets/stripe.png";
 
 export default function Footer() {
   return (

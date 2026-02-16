@@ -1,23 +1,23 @@
-import airPeace from "../assets/logo-wall/Air-Peace.svg";
-import filmhouse from "../assets/logo-wall/FilmHouse.svg";
-import piggyvest from "../assets/logo-wall/Piggyvest.svg";
-import ibomAir from "../assets/logo-wall/Ibom-Air.svg";
-import kuda from "../assets/logo-wall/Kuda.svg";
-import ariya from "../assets/logo-wall/Ariiya.svg";
+import airPeace from "../assets/logo-wall/air-peace.svg";
+import filmhouse from "../assets/logo-wall/film-house.svg";
+import piggyvest from "../assets/logo-wall/piggyvest.svg";
+import ibomAir from "../assets/logo-wall/ibom-air.svg";
+import kuda from "../assets/logo-wall/kuda.svg";
+import ariya from "../assets/logo-wall/ariiya.svg";
 
-import dominos from "../assets/logo-wall/Dominos.svg";
+import dominos from "../assets/logo-wall/dominos.svg";
 import mtn from "../assets/logo-wall/mtn.svg";
-import lirs from "../assets/logo-wall/LIRS.svg";
-import bolt from "../assets/logo-wall/Bolt.svg";
-import betway from "../assets/logo-wall/Betway.svg";
+import lirs from "../assets/logo-wall/lirs.svg";
+import bolt from "../assets/logo-wall/bolt.svg";
+import betway from "../assets/logo-wall/betway.svg";
 import carbon from "../assets/logo-wall/carbon.svg";
 
-import axa from "../assets/logo-wall/Axa-mansard.svg";
-import abiaStateUni from "../assets/logo-wall/Abia-State-University.svg";
-import gigm from "../assets/logo-wall/GIGM.svg";
-import irokotv from "../assets/logo-wall/IrokoTV.svg";
-import smile from "../assets/logo-wall/Smile.svg";
-import cowrywise from "../assets/logo-wall/Cowrywise.svg";
+import axa from "../assets/logo-wall/axa-mansard.svg";
+import abiaStateUni from "../assets/logo-wall/abia-state-university.svg";
+import gigm from "../assets/logo-wall/gigm.svg";
+import irokotv from "../assets/logo-wall/irokotv.svg";
+import smile from "../assets/logo-wall/smile.svg";
+import cowrywise from "../assets/logo-wall/cowrywise.svg";
 
 export default function LogoSection() {
   const logos = [

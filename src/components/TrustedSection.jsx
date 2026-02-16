@@ -1,6 +1,6 @@
-import globalBrands from "../assets/International-Businesses.svg";
-import entrepreneurs from "../assets/For-entrepreneurs.svg";
-import largeOrgs from "../assets/For-Large-Corporations.svg";
+import globalBrands from "../assets/international-businesses.svg";
+import entrepreneurs from "../assets/for-entrepreneurs.svg";
+import largeOrgs from "../assets/for-large-corporations.svg";
 
 export default function TrustedSection() {
   const cards = [

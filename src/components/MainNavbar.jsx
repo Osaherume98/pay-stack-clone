@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import CountryDropdown from "./CountryDropdown";
-import PaystackLogoiMG from "../assets/Paystack-logo.png";
+import PaystackLogoiMG from "../assets/paystack-logo.png";
 import ChoseUS from "../assets/logo/why_chose_us.svg";
 import Success from "../assets/logo/success_rates.svg";
 import Demo from "../assets/logo/demo_db.svg";
