@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import CountryDropdown from "./CountryDropdown";
-import PaystackLogo from "../assets/paystack.png";
+import PaystackLogoIcon from "../assets/paystack.png";
 import ChoseUS from "../assets/why_chose_us.svg";
 import Success from "../assets/success_rates.svg";
 import Demo from "../assets/demo_db.svg";
@@ -32,7 +32,7 @@ function PauseIcon({ className = "" }) {
 function PaystackLogo() {
   return (
     <a href="/" className="flex items-center">
-      <img src={PaystackLogo} alt="Paystack" className="h-6 w-auto" draggable="false" />
+      <img src={PaystackLogoIcon} alt="Paystack" className="h-6 w-auto" draggable="false" />
     </a>
   );
 }

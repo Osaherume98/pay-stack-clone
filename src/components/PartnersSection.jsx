@@ -1,5 +1,5 @@
-import stripeLogo from "../assets/svg/stripe.png";
-import visaLogo from "../assets/svg/visa.png";
+import stripeLogo from "../assets/stripe.png";
+import visaLogo from "../assets/visa.png";
 import ycLogo from "../assets/ycombinator-logo.png";
 
 import patrickImg from "../assets/patrick.jpg";
