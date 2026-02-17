@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import CountryDropdown from "./CountryDropdown";
-import PaystackLogoiMG from "../assets/paystack-logo.png";
+import PaystackLogo from "../assets/paystack.png";
 import ChoseUS from "../assets/why_chose_us.svg";
 import Success from "../assets/success_rates.svg";
 import Demo from "../assets/demo_db.svg";
@@ -32,7 +32,7 @@ function PauseIcon({ className = "" }) {
 function PaystackLogo() {
   return (
     <a href="/" className="flex items-center">
-      <img src={PaystackLogoiMG} alt="Paystack" className="h-6 w-auto" draggable="false" />
+      <img src={PaystackLogo} alt="Paystack" className="h-6 w-auto" draggable="false" />
     </a>
   );
 }
@@ -44,10 +44,10 @@ function MenuIconBubble({ logoSrc = "", containerClass = "", logoClass = "" }) {
         <img
           src={logoSrc}
           alt="Logo"
-          className={`h-8 w-8 object-cover rounded-full ${logoClass}`}  // Custom class for the image
+          className={`h-8 w-8 object-cover rounded-full ${logoClass}`}
         />
       ) : (
-        <span className="font-bold text-white">?</span>  // Fallback text
+        <span className="font-bold text-white">?</span>  
       )}
     </div>
   );
