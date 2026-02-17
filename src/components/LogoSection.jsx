@@ -1,7 +1,7 @@
 import airPeace from "../assets/airpeace.svg";
-import filmhouse from "../assets/filmhouse.svg";
+import filmhouse from "../assets/film.svg";
 import piggyvest from "../assets/piggyvest.svg";
-import ibomAir from "../assets/ibomair.svg";
+import ibomAir from "../assets/ibom.svg";
 import kuda from "../assets/kuda.svg";
 import ariya from "../assets/ariiya.svg";
 
